@@ -8,8 +8,9 @@ import androidx.viewbinding.ViewBinding
 import com.example.chatapp.R
 import com.example.chatapp.databinding.ActivityMainBinding
 import com.example.chatapp.ui.base.BaseActivity
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding>() {
     override fun getViewBinding() =  ActivityMainBinding.inflate(layoutInflater)
     override fun prepareView(savedInstanceState: Bundle?) {
