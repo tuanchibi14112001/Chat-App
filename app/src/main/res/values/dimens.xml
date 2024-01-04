@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_with_164">164dp</dimen>
+
+    <dimen name="txt_14">14sp</dimen>
+    <dimen name="txt_16">16sp</dimen>
+    <dimen name="txt_18">18sp</dimen>
+    <dimen name="txt_26">26sp</dimen>
+    <dimen name="txt_32">32sp</dimen>
+    <dimen name="txt_40">40sp</dimen>
+
+
+    <dimen name="item_3">3dp</dimen>
+    <dimen name="item_5">5dp</dimen>
+    <dimen name="item_10">10dp</dimen>
+    <dimen name="item_15">15dp</dimen>
+    <dimen name="item_24">24dp</dimen>
+    <dimen name="item_30">30dp</dimen>
+    <dimen name="item_40">40dp</dimen>
+    <dimen name="item_47">47dp</dimen>
+    <dimen name="item_48">48dp</dimen>
+    <dimen name="item_61">61dp</dimen>
+    <dimen name="item_81">81dp</dimen>
+
+
+
+
+    <dimen name="pd_16">16dp</dimen>
+
+
+</resources>
