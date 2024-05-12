@@ -129,6 +129,7 @@
             android:layout_marginEnd="@dimen/item_5"
             android:text="@string/txt_no_account"
             android:textSize="@dimen/txt_14"
+            android:paddingTop="@dimen/item_10"
             app:layout_constraintEnd_toStartOf="@+id/btn_signup"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="packed"
@@ -141,11 +142,15 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_btn_signup"
             android:textSize="@dimen/txt_14"
+            android:paddingTop="@dimen/item_10"
+            android:paddingBottom="@dimen/item_10"
+            android:paddingEnd="@dimen/item_10"
             android:fontFamily="@font/lato_bold"
             android:textColor="@color/blue_6B4"
             app:layout_constraintEnd_toEndOf="@+id/btn_login_submit"
             app:layout_constraintStart_toEndOf="@+id/txt2"
-            app:layout_constraintTop_toTopOf="@+id/txt2" />
+            app:layout_constraintTop_toTopOf="@+id/txt2"
+            tools:ignore="RtlSymmetry" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -51,16 +51,16 @@
             android:id="@+id/edit_name_input"
             android:layout_width="match_parent"
             android:layout_height="@dimen/item_48"
-            android:autofillHints="emailAddress"
             android:backgroundTint="@color/gray_2D2"
             android:drawableEnd="@drawable/ic_person"
             android:hint="@string/str_name_input_hint"
-            android:inputType="textEmailAddress"
             android:textColor="@color/black"
             android:textColorHint="@color/gray_767"
             android:textSize="@dimen/txt_18"
             app:layout_constraintStart_toStartOf="@+id/txt_name_title"
-            app:layout_constraintTop_toBottomOf="@+id/txt_name_title" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_name_title"
+            android:inputType="text"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/txt_email_title"
@@ -189,6 +189,7 @@
             android:layout_marginBottom="@dimen/item_40"
             android:text="@string/str_has_account"
             android:textSize="@dimen/txt_14"
+            android:paddingTop="@dimen/item_10"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btn_signIn"
             app:layout_constraintHorizontal_bias="0.5"
@@ -200,12 +201,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato_bold"
+            android:paddingTop="@dimen/item_10"
+            android:paddingBottom="@dimen/item_10"
+            android:paddingEnd="@dimen/item_10"
             android:text="@string/str_btn_signIn"
             android:textColor="@color/blue_6B4"
             android:textSize="@dimen/txt_14"
             app:layout_constraintEnd_toEndOf="@+id/btn_signup_submit"
             app:layout_constraintStart_toEndOf="@+id/txt2"
-            app:layout_constraintTop_toTopOf="@+id/txt2" />
+            app:layout_constraintTop_toTopOf="@+id/txt2"
+            tools:ignore="RtlSymmetry" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,8 +19,6 @@ class LoginFragmentViewModel @Inject constructor(private val repository: AuthRep
     private val _loginFlow =  MutableLiveData<Resource<FirebaseUser>>()
     val loginFlow : LiveData<Resource<FirebaseUser>> = _loginFlow
 
-
-
     fun loginUser(email: String, pwd: String) = viewModelScope.launch {
         _loginFlow.value = Resource.loading()
         val result = repository.login(email,pwd)

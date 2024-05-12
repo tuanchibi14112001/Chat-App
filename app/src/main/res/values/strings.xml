@@ -29,4 +29,11 @@
     <string name="str_btn_signIn">Đăng nhập ngay</string>
 
 
+    <!--    Bottom menu-->
+    <string name="message">Tin nhắn</string>
+    <string name="friend">Bạn bè</string>
+    <string name="profile">Trang cá nhân</string>
+    <string name="avatar">Avatar</string>
+
+
 </resources>

@@ -9,17 +9,22 @@
     <dimen name="txt_32">32sp</dimen>
     <dimen name="txt_40">40sp</dimen>
 
+    <dimen name="ng_item_20">-20dp</dimen>
+    <dimen name="ng_item_30">-30dp</dimen>
+
 
     <dimen name="item_3">3dp</dimen>
     <dimen name="item_5">5dp</dimen>
     <dimen name="item_10">10dp</dimen>
     <dimen name="item_15">15dp</dimen>
+    <dimen name="item_20">20dp</dimen>
     <dimen name="item_24">24dp</dimen>
     <dimen name="item_30">30dp</dimen>
     <dimen name="item_40">40dp</dimen>
     <dimen name="item_47">47dp</dimen>
     <dimen name="item_48">48dp</dimen>
     <dimen name="item_61">61dp</dimen>
+    <dimen name="item_70">70dp</dimen>
     <dimen name="item_81">81dp</dimen>
 
 
